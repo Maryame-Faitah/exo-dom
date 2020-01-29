@@ -1,0 +1,30 @@
+//Variables
+$primary: #017BFF;
+$secondary: rgb(180, 177, 177);
+
+//Body
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+//Header
+header{
+    div:first-child{
+        .titre{
+            font-size:220%;
+        }
+    }
+    div:last-child{
+        p:hover{
+            background-color: $primary;
+        }
+    }
+}
+
+//Section 1
+#section1{
+    text-align: center;
+    .div1{
+        background-color: $secondary;
+    }
+}

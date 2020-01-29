@@ -1,7 +1,6 @@
 {
   "name": "exo8-travail",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryame-Faitah/exo-dom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maryame-Faitah/exo-dom/issues"
+  },
+  "homepage": "https://github.com/Maryame-Faitah/exo-dom#readme",
+  "description": ""
 }

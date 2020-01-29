@@ -4,16 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="w-75 mx-auto">
+
+    <!-- Header -->
+    <header class="mb-5">
+        <div class="bg-primary">
+            <p class="titre text-white p-2 text-center">Javascript DOM</p>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row text-primary">
+              <div class="col">
+                <p><a href="./index.html#section1">Exercice 1</a></p>
+              </div>
+              <div class="col">
+                <p><a href="./index.html#section2">Exercice 2</a></p>
+              </div>
+              <div class="col">
+                <p><a href="">Exercice 3</a></p>
+              </div>
+              <div class="col">
+                <p><a href="">Exercice 4</a></p>
+              </div>
+            </div>
+            <div class="row text-primary">
+              <div class="col">
+                <p><a href="">Exercice 5</a></p>
+              </div>
+              <div class="col">
+                <p><a href="">Exercice 6</a></p>
+              </div>
+              <div class="col">
+                <p><a href="">Exercice 7</a></p>
+              </div>
+              <div class="col">
+              </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section1 -->
+    <section id="section1"> 
+        
+        <div class="div1 text-left py-2">
+            
+            <h2 class="bg-success text-warning text-left mx-5 mt-5">Mon titre <span id="title">normal</span></h2>
+            
+            <div class="mx-5">
+                <p>Liste des propriétés et méthodes à retrouver dans la documentation:</p>
+                <ul>
+                    <li>Inner Text</li>
+                    <li>Inner HTML</li>
+                    <li>querySelector()</li>
+                    <li>querySelectorAll()</li>
+                    <li>style</li>
+                    <li>classList</li>
+                </ul>
+                <p>Changer le contenu du h2 par "le titre modifié" <br>
+                Changer la couleur du h2 (par ce que vous voulez) <br>
+                Ajouter une class background bootstrap au h2</p>
+            </div>
     
+        </div>
+    </section>
+
+    <!-- Section2 -->
+    <section id="section2">
+
+    </section>
 
     <!-- Link JS -->
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <script src="./main.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="./js/main.js" type="module"></script>
+
 </body>
 </html>
