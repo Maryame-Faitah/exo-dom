@@ -9,9 +9,10 @@ let exo7 = document.getElementById('section7');
 
 /////////////////////////////////////////////////////////////
 
+let button1 = document.getElementById('btn1');
+
 //Fonction1
-let dnone1 = (button1) => {
-    let button1 = document.getElementById('btn1');
+let dnone1 = () => {
     exo1.classList.remove('d-none');
     exo2.classList.add('d-none');
     exo3.classList.add('d-none');
@@ -26,9 +27,10 @@ button1.addEventListener("click",dnone1);
 
 /////////////////////////////////////////////////////////////
 
+let button2 = document.getElementById('btn2');
+
 //Fonction2
-let dnone2 = (button2) => {
-    let button2 = document.getElementById('btn2');
+let dnone2 = () => {
     exo2.classList.remove('d-none');
     exo1.classList.add('d-none');
     exo3.classList.add('d-none');
@@ -43,9 +45,10 @@ button2.addEventListener("click",dnone2);
 
 /////////////////////////////////////////////////////
 
+let button3 = document.getElementById('btn3');
+
 //Fonction3
-let dnone3 = (button3) => {
-    let button3 = document.getElementById('btn3');
+let dnone3 = () => {
     exo3.classList.remove('d-none');
     exo1.classList.add('d-none');
     exo2.classList.add('d-none');
@@ -60,9 +63,10 @@ button3.addEventListener("click",dnone3);
 
 /////////////////////////////////////////////////////
 
+let button4 = document.getElementById('btn4');
+
 //Fonction4
-let dnone4 = (button4) => {
-    let button4 = document.getElementById('btn4');
+let dnone4 = () => {
     exo4.classList.remove('d-none');
     exo1.classList.add('d-none');
     exo2.classList.add('d-none');
@@ -77,9 +81,10 @@ button4.addEventListener("click",dnone4);
 
 /////////////////////////////////////////////////////
 
+let button5 = document.getElementById('btn5');
+
 //Fonctions
-let dnone5 = (button5) => {
-    let button5 = document.getElementById('btn5');
+let dnone5 = () => {
     exo5.classList.remove('d-none');
     exo1.classList.add('d-none');
     exo2.classList.add('d-none');
@@ -94,9 +99,10 @@ button5.addEventListener("click",dnone5);
 
 /////////////////////////////////////////////////////
 
+let button6 = document.getElementById('btn6');
+
 //Fonctions
-let dnone6 = (button6) => {
-    let button6 = document.getElementById('btn6');
+let dnone6 = () => {
     exo6.classList.remove('d-none');
     exo1.classList.add('d-none');
     exo2.classList.add('d-none');
@@ -111,9 +117,10 @@ button6.addEventListener("click",dnone6);
 
 /////////////////////////////////////////////////////
 
+let button7 = document.getElementById('btn7');
+
 //Fonctions
-let dnone7 = (button7) => {
-    let button7 = document.getElementById('btn7');
+let dnone7 = () => {
     exo7.classList.remove('d-none');
     exo1.classList.add('d-none');
     exo2.classList.add('d-none');

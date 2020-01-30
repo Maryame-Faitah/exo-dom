@@ -23,11 +23,6 @@ header{
     }
 }
 
-// //display-none
-// .dnone{
-//     display: none;
-// }
-
 //Section 1
 #section1{
     text-align: center;
@@ -38,6 +33,10 @@ header{
 
 //Section2
 #section2{
-    background-color: $secondary;
-    
+    background-color: $secondary;  
+}
+
+//Section3
+#section3{
+    background-color: $secondary;  
 }

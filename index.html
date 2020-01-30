@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Document</title>
 </head>
+
 <body class="w-75 mx-auto">
 
     <!-- Header -->
@@ -56,12 +58,12 @@
     </header>
 
     <!-- Section1 -->
-    <section id="section1" class=""> 
-        
+    <section id="section1" class="">
+
         <div class="div1 text-left py-2">
-            
+
             <h2 class="bg-success text-warning text-left mx-5 mt-5">Mon titre <span id="title">normal</span></h2>
-            
+
             <div class="mx-5">
                 <p>Liste des propriétés et méthodes à retrouver dans la documentation:</p>
                 <ul>
@@ -73,19 +75,34 @@
                     <li>classList</li>
                 </ul>
                 <p>Changer le contenu du h2 par "le titre modifié" <br>
-                Changer la couleur du h2 (par ce que vous voulez) <br>
-                Ajouter une class background bootstrap au h2</p>
+                    Changer la couleur du h2 (par ce que vous voulez) <br>
+                    Ajouter une class background bootstrap au h2</p>
             </div>
-    
+
         </div>
     </section>
 
     <!-- Section2 -->
     <section id="section2" class="my-5 py-5 d-none">
         <div class="text-left px-5">
-            <p>Mettre un écouteur d'événements sur le bouton nav 
+            <p>Mettre un écouteur d'événements sur le bouton nav
                 et changer le panel en conséquence.
             </p>
+        </div>
+    </section>
+
+    <!-- Section2 -->
+    <section id="section3" class="my-5 py-5 d-none">
+        <div class="text-left px-5">
+            <h2>Welcome <span id="span">inconnu</span></h2>
+            <p>Ecrivez dans l'input le nom de la personne que 
+                vous voulez acceuillir <br>
+                Lorsque vous cliquez sur le boutton "go", le nom
+                que vous avez mis dans l'input apparait dans le span
+                du h2 et l'input sera alors vidé de tout contenu. <br>
+                Attention, interdiction de toucher à l'html.
+            </p>
+            <input type="text" id="input"><button id="go">Go!</button>
         </div>
     </section>
 
@@ -96,4 +113,5 @@
     <script src="./js/main.js" type="module"></script>
 
 </body>
+
 </html>
