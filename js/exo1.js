@@ -4,3 +4,4 @@ title.innerHTML = "modifié";
 
 //changement coul:
 title.style.color = "red";
+                                                                                                                                                                                                                                                                                                              

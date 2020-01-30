@@ -1,6 +1,7 @@
 //Variables
 $primary: #017BFF;
 $secondary: rgb(180, 177, 177);
+$tertiary: white;
 
 //Body
 body{
@@ -15,11 +16,17 @@ header{
         }
     }
     div:last-child{
-        p:hover{
+        button:hover{
             background-color: $primary;
+            color: $tertiary;
         }
     }
 }
+
+// //display-none
+// .dnone{
+//     display: none;
+// }
 
 //Section 1
 #section1{
@@ -27,4 +34,10 @@ header{
     .div1{
         background-color: $secondary;
     }
+}
+
+//Section2
+#section2{
+    background-color: $secondary;
+    
 }

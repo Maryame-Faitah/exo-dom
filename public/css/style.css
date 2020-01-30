@@ -6,8 +6,9 @@ header div:first-child .titre {
   font-size: 220%;
 }
 
-header div:last-child p:hover {
+header div:last-child button:hover {
   background-color: #017BFF;
+  color: white;
 }
 
 #section1 {
@@ -15,6 +16,10 @@ header div:last-child p:hover {
 }
 
 #section1 .div1 {
+  background-color: #b4b1b1;
+}
+
+#section2 {
   background-color: #b4b1b1;
 }
 /*# sourceMappingURL=style.css.map */
