@@ -137,26 +137,16 @@
     <!-- EXERCICE 5 /////////////////////////////////////////-->
     <!-- Section5 -->
     <section id="section5" class="my-5 py-5 d-none">
-        <div class="text-left px-5">
-            <h2>Déplacer les éléments</h2>
-            <div class="row justify-content-center mb-5">
-                <div class="forme1 d-flex justify-content-center align-items-center">
-                    <div id="carre1"></div>
-                </div>
-                <div class="forme2 d-flex justify-content-center align-items-center">
-                    <div id="carre2" class="d-none"></div>
-                </div>
+        <div class="text-left px-5 w-100">
+            <h2>Générer des éléments du DOM</h2>
+            <p>Cliquer sur le bouton ci-dessous pour Générer
+                d'autres oeufs.
+            </p>
+            <button id="btn-img" class="btn text-white bg-danger rounded">Ajouter un coeur</button>
+            <button id="btn-remove" class="btn text-white bg-danger rounded">Remove 1 coeur</button>
+            <button id="btn-removeAll" class="btn text-white bg-danger rounded">Remove tout</button>
+            <div id="divCoeur" class="divCoeur pt-5 row w-100 m-0">
             </div>
-
-            <div class="container row d-flex">
-                <div class="w-100">
-                    <button type="button" id="btn1" class="btn btn1 text-white bg-warning rounded">Change place</button>
-                </div>
-                <div class="w-100 mt-3">
-                    <button type="button" id="btn2" class="btn btn2 text-white bg-success rounded">Nombre de click: <span id="nb">0</span></button>
-                </div>
-            </div>
-
         </div>
     </section>
 
