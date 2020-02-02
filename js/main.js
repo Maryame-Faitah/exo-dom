@@ -4,3 +4,4 @@ import "./exo3.js";
 import "./exo4.js";
 import "./exo5.js";
 import "./exo6.js";
+import "./exo7.js";
