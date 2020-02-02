@@ -109,7 +109,7 @@ header div:last-child button:hover {
           justify-content: center;
 }
 
-#section7 #divTodo #btnDoing, #section7 #divTodo #btnDone {
+#section7 #divTodo #btnTodo, #section7 #divTodo #btnDone {
   border: 1px solid blue;
 }
 /*# sourceMappingURL=style.css.map */
