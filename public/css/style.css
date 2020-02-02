@@ -66,4 +66,36 @@ header div:last-child button:hover {
 #section5 {
   background-color: #b4b1b1;
 }
+
+#section6 {
+  background-color: #b4b1b1;
+}
+
+#section6 #contourCalc {
+  background-color: black;
+  width: 27%;
+}
+
+#section6 #contourCalc .btnCalc {
+  background-color: white;
+  color: black;
+}
+
+#section6 #contourCalc #btnPlus, #section6 #contourCalc #btnMoins, #section6 #contourCalc #btnMult, #section6 #contourCalc #btnDiv, #section6 #contourCalc #btnZero {
+  background-color: #017BFF;
+}
+
+#section6 #contourCalc #btnEgal {
+  background-color: green;
+}
+
+#section6 #contourCalc #btnC {
+  background-color: #ec8697;
+}
+
+#section6 #contourCalc #result {
+  background-color: black;
+  color: white;
+  margin-left: 8%;
+}
 /*# sourceMappingURL=style.css.map */

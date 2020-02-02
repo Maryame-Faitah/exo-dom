@@ -2,6 +2,7 @@
 $primary: #017BFF;
 $secondary: rgb(180, 177, 177);
 $tertiary: white;
+$quaternary: black;
 
 //Body
 body{
@@ -74,4 +75,31 @@ header{
 //Section5
 #section5{
     background-color: $secondary;  
+}
+
+//Section6
+#section6{
+    background-color: $secondary; 
+    #contourCalc{
+        background-color: $quaternary; 
+        width:27%;
+        .btnCalc{ 
+            background-color: $tertiary; 
+            color: $quaternary;
+        } 
+        #btnPlus,#btnMoins,#btnMult,#btnDiv,#btnZero{
+            background-color: $primary;
+        }
+        #btnEgal{
+            background-color: green;
+        }
+        #btnC{
+            background-color: rgb(236, 134, 151);
+        }
+        #result{ 
+            background-color: $quaternary;
+            color: $tertiary; 
+            margin-left: 8%;
+        } 
+    } 
 }

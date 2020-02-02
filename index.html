@@ -124,10 +124,12 @@
 
             <div class="container row d-flex">
                 <div class="w-100">
-                    <button type="button" id="btn-change" class="btn btn1 text-white bg-warning rounded">Change place</button>
+                    <button type="button" id="btn-change" class="btn btn1 text-white bg-warning rounded">Change
+                        place</button>
                 </div>
                 <div class="w-100 mt-3">
-                    <button type="button" id="btn-reset" class="btn btn2 text-white bg-success rounded">Nombre de click: <span id="nb">0</span></button>
+                    <button type="button" id="btn-reset" class="btn btn2 text-white bg-success rounded">Nombre de click:
+                        <span id="nb">0</span></button>
                 </div>
             </div>
 
@@ -154,25 +156,58 @@
     <!-- Section6 -->
     <section id="section6" class="my-5 py-5 d-none">
         <div class="text-left px-5">
-            <h2>Déplacer les éléments</h2>
+            <h2>Création calculatrice</h2>
+            <!-- Niveau1 -->
+            <h4>Niveau 1</h4>
             <div class="row justify-content-center mb-5">
-                <div class="forme1 d-flex justify-content-center align-items-center">
-                    <div id="carre1"></div>
-                </div>
-                <div class="forme2 d-flex justify-content-center align-items-center">
-                    <div id="carre2" class="d-none"></div>
+                <input id="input1" type="" value="">
+                <select id="mySelect">
+                    <option id="additionne" value="+">+</option>
+                    <option id="soustrais" value="-">-</option>
+                    <option id="multiplie" value="*">*</option>
+                    <option id="divise" value="/">/</option>
+                </select>
+                <input id="input2" type="" value="">
+                <button id="egal">=</button>
+                <p><span id="answer"></span></p>
+            </div>
+            <!-- Niveau2 -->
+            <h4>Niveau 2</h4>
+            <div class="row justify-content-center mb-5">
+                <div id="contourCalc">
+                    <div class="d-flex justify-content-end pt-4 m-2" id="result">
+                    </div>
+                    <div class="text-center pt-5">
+                        <input class="" type="text" value="" id="inputCalculette2">
+                    </div>
+                    <div class="container">
+                        <div class="row mt-4 text-center">
+                            <div class="col-3"><button class="nb" id="btnCal1">1</button></div>
+                            <div class="col-3"><button class="nb" id="btnCal3">3</button></div>
+                            <div class="col-3"><button class="nb" id="btnCal2">2</button></div>
+                            <div class="col-3"><button class="signe" id="btnPlus">+</button></div>
+                        </div>
+                        <div class="row mt-4 text-center">
+                            <div class="col-3"><button class="nb" id="btnCal5">5</button></div>
+                            <div class="col-3"><button class="nb" id="btnCal4">4</button></div>
+                            <div class="col-3"><button class="nb" id="btnCal6">6</button></div>
+                            <div class="col-3"><button class="signe" id="btnMoins">-</button></div>
+                        </div>
+                        <div class="row mt-4 text-center">
+                            <div class="col-3"><button class="nb" id="btnCal7">7</button></div>
+                            <div class="col-3"><button class="nb" id="btnCal8">8</button></div>
+                            <div class="col-3"><button class="nb" id="btnCal9">9</button></div>
+                            <div class="col-3"><button class="signe" id="btnMult">*</button></div>
+                        </div>
+                        <div class="row mt-4 text-center">
+                            <div class="col-3"><button class="signe" id="btnC">c</button></div>
+                            <div class="col-3"><button class="nb" id="btnZero">0</button></div>
+                            <div class="col-3"><button class="egalBis" id="btnEgal">=</button></div>
+                            <div class="col-3"><button class="signe" id="btnDiv">/</button></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="container row d-flex">
-                <div class="w-100">
-                    <button type="button" id="btn1" class="btn btn1 text-white bg-warning rounded">Change place</button>
-                </div>
-                <div class="w-100 mt-3">
-                    <button type="button" id="btn2" class="btn btn2 text-white bg-success rounded">Nombre de click: <span id="nb">0</span></button>
-                </div>
-            </div>
-
         </div>
     </section>
 
@@ -195,7 +230,8 @@
                     <button type="button" id="btn1" class="btn btn1 text-white bg-warning rounded">Change place</button>
                 </div>
                 <div class="w-100 mt-3">
-                    <button type="button" id="btn2" class="btn btn2 text-white bg-success rounded">Nombre de click: <span id="nb">0</span></button>
+                    <button type="button" id="btn2" class="btn btn2 text-white bg-success rounded">Nombre de click:
+                        <span id="nb">0</span></button>
                 </div>
             </div>
 
