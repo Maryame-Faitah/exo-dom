@@ -98,4 +98,18 @@ header div:last-child button:hover {
   color: white;
   margin-left: 8%;
 }
+
+#section7 {
+  background-color: #b4b1b1;
+}
+
+#section7 #divTodo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#section7 #divTodo #btnDoing, #section7 #divTodo #btnDone {
+  border: 1px solid blue;
+}
 /*# sourceMappingURL=style.css.map */
