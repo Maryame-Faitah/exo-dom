@@ -8,153 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./public/css/style.css">
-    <title>Document</title>
+    <title>Calculette en Js</title>
 </head>
 
 <body class="w-75 mx-auto">
-    <!-- EXERCICE 1 -->
-    <!-- Header -->
-    <header class="mb-5">
-        <div class="bg-primary">
-            <p class="titre text-white p-2 text-center">Javascript DOM</p>
-        </div>
-
-        <div class="container row mt-5">
-            <button id="btn1" class="col-3">Exercice 1</button>
-            <button id="btn2" class="col-3">Exercice 2</button>
-            <button id="btn3" class="col-3">Exercice 3</button>
-            <button id="btn4" class="col-3">Exercice 4</button>
-            <button id="btn5" class="col-3">Exercice 5</button>
-            <button id="btn6" class="col-3">Exercice 6</button>
-            <button id="btn7" class="col-3">Exercice 7</button>
-            <!-- <div class="row text-primary">
-              <div class="col">
-                <p><a href="" id="btn1">Exercice 1</a></p>
-              </div>
-              <div class="col">
-                <p><a href="" id="btn2">Exercice 2</a></p>
-              </div>
-              <div class="col">
-                <p><a href="" id="btn3">Exercice 3</a></p>
-              </div>
-              <div class="col">
-                <p><a href="" id="btn4">Exercice 4</a></p>
-              </div>
-            </div>
-            <div class="row text-primary">
-              <div class="col">
-                <p><a href="" id="btn5">Exercice 5</a></p>
-              </div>
-              <div class="col">
-                <p><a href="" id="btn6">Exercice 6</a></p>
-              </div>
-              <div class="col">
-                <p><a href="" id="btn2">Exercice 7</a></p>
-              </div>
-              <div class="col">
-              </div>
-            </div> -->
-        </div>
-    </header>
-
-    <!-- Section1 /////////////////////////////////////////-->
-    <section id="section1" class="">
-
-        <div class="div1 text-left py-2">
-
-            <h2 class="bg-success text-warning text-left mx-5 mt-5">Mon titre <span id="title">normal</span></h2>
-
-            <div class="mx-5">
-                <p>Liste des propriétés et méthodes à retrouver dans la documentation:</p>
-                <ul>
-                    <li>Inner Text</li>
-                    <li>Inner HTML</li>
-                    <li>querySelector()</li>
-                    <li>querySelectorAll()</li>
-                    <li>style</li>
-                    <li>classList</li>
-                </ul>
-                <p>Changer le contenu du h2 par "le titre modifié" <br>
-                    Changer la couleur du h2 (par ce que vous voulez) <br>
-                    Ajouter une class background bootstrap au h2</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- EXERCICE 2 /////////////////////////////////////////-->
-    <!-- Section2 -->
-    <section id="section2" class="my-5 py-5 d-none">
-        <div class="text-left px-5">
-            <p>Mettre un écouteur d'événements sur le bouton nav
-                et changer le panel en conséquence.
-            </p>
-        </div>
-    </section>
-
-    <!-- EXERCICE 3 /////////////////////////////////////////-->
-    <!-- Section3 -->
-    <section id="section3" class="my-5 py-5 d-none">
-        <div class="text-left px-5">
-            <h2>Welcome <span id="span">inconnu</span></h2>
-            <p>Ecrivez dans l'input le nom de la personne que
-                vous voulez acceuillir <br>
-                Lorsque vous cliquez sur le boutton "go", le nom
-                que vous avez mis dans l'input apparait dans le span
-                du h2 et l'input sera alors vidé de tout contenu. <br>
-                Attention, interdiction de toucher à l'html.
-            </p>
-            <input type="text" id="input"><button id="go">Go!</button>
-        </div>
-    </section>
-
-    <!-- EXERCICE 4 /////////////////////////////////////////-->
-    <!-- Section4 -->
-    <section id="section4" class="my-5 py-5 d-none">
-        <div class="text-left px-5">
-            <h2>Déplacer les éléments</h2>
-            <div class="row justify-content-center mb-5">
-                <div class="forme1 d-flex justify-content-center align-items-center">
-                    <div id="carre1" class=""></div>
-                </div>
-                <div class="forme2 d-flex justify-content-center align-items-center">
-                    <div id="carre2" class="d-none"></div>
-                </div>
-            </div>
-
-            <div class="container row d-flex">
-                <div class="w-100">
-                    <button type="button" id="btn-change" class="btn btn1 text-white bg-warning rounded">Change
-                        place</button>
-                </div>
-                <div class="w-100 mt-3">
-                    <button type="button" id="btn-reset" class="btn btn2 text-white bg-success rounded">Nombre de click:
-                        <span id="nb">0</span></button>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- EXERCICE 5 /////////////////////////////////////////-->
-    <!-- Section5 -->
-    <section id="section5" class="my-5 py-5 d-none">
-        <div class="text-left px-5 w-100">
-            <h2>Générer des éléments du DOM</h2>
-            <p>Cliquer sur le bouton ci-dessous pour Générer
-                d'autres oeufs.
-            </p>
-            <button id="btn-img" class="btn text-white bg-danger rounded">Ajouter un coeur</button>
-            <button id="btn-remove" class="btn text-white bg-danger rounded">Remove 1 coeur</button>
-            <button id="btn-removeAll" class="btn text-white bg-danger rounded">Remove tout</button>
-            <div id="divCoeur" class="divCoeur pt-5 row w-100 m-0">
-            </div>
-        </div>
-    </section>
 
     <!-- EXERCICE 6 /////////////////////////////////////////-->
     <!-- Section6 -->
-    <section id="section6" class="my-5 py-5 d-none">
+    <section id="section6" class="my-5 py-5">
         <div class="text-left px-5">
             <h2>Création calculatrice</h2>
             <!-- Niveau1 -->
@@ -211,28 +72,7 @@
         </div>
     </section>
 
-    <!-- EXERCICE 7 /////////////////////////////////////////-->
-    <!-- Section7 -->
-    <section id="section7" class="my-5 py-5 d-none">
-        <div class="text-left px-5">
-            <h2>To do list</h2>
-            <hr>
-            <input id="tache" class="w-100" type="text" placeholder="Que dois-je faire?">
-            <div id="divTodo" class="row mt-2">
-                <button id="btnAll" class="btn text-white bg-primary rounded mr-2">Toutes</button>
-                <button id="btnDone" class="btn text-white bg-transparent text-primary rounded mr-2">Completées</button>
-                <button id="btnTodo" class="btn text-white bg-transparent text-primary rounded">A faire</button>
-            </div>
-            <div id="output">
-            </div>
-            <hr>
-        </div>
-    </section>
-
-
-
-
-    <!-- Link JS -->
+    <!-- Link JS ////////////////////////////////////////////-->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>

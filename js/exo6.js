@@ -50,6 +50,7 @@ for(let i=0; i<array1.length; i++){
         inputCalculette2.value += array1[i].innerHTML;
     })
 };
+
 btnEgal.addEventListener("click", ()=> {
     result.innerHTML = eval(inputCalculette2.value);
 });
